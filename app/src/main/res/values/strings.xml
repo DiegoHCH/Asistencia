@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Asistencia Cultos</string>
+    <string name="userHint">Usuario</string>
+    <string name="passwordHint">Contraseña</string>
+    <string name="loginTextButton">Iniciar Sesion</string>
+    <string name="registerText">Registrate Aqui!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textMenuHome">Inicio</string>
+    <string name="textMenuProfile">Perfil</string>
+    <string name="textMenuSchedule">Horarios</string>
+    <string name="textMenuInformation">Informacion</string>
+</resources>

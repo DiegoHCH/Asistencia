@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.asistencia.View.Ui.Fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/navProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navProfileFragment"
+        android:name="com.asistencia.View.Ui.Fragments.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_scheduleFragment"
+            app:destination="@id/navScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.asistencia.View.Ui.Fragments.ScheduleFragment"
+        android:label="ScheduleFragment" >
+        <action
+            android:id="@+id/action_scheduleFragment_to_informationFragment"
+            app:destination="@id/navInformationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navInformationFragment"
+        android:name="com.asistencia.View.Ui.Fragments.InformationFragment"
+        android:label="InformationFragment" />
+</navigation>

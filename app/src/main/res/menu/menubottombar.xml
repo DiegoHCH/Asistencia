@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHomeFragment"
+        android:title="@string/textMenuHome"
+        android:icon="@drawable/ic_round_home"/>
+    <item
+        android:id="@+id/navProfileFragment"
+        android:title="@string/textMenuProfile"
+        android:icon="@drawable/ic_round_person"/>
+    <item
+        android:id="@+id/navScheduleFragment"
+        android:title="@string/textMenuSchedule"
+        android:icon="@drawable/ic_round_access_time"/>
+    <item
+        android:id="@+id/navInformationFragment"
+        android:title="@string/textMenuInformation"
+        android:icon="@drawable/ic_round_info"/>
+
+</menu>
